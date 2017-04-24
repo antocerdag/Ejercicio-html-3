@@ -4,6 +4,28 @@
 	<title>Convertidor Temperatura</title>
 </head>
 <body>
+<h2>Ingresa el dato</h2>
+<form name="form" onclick="convertirCelsius();">
+	<table>
+		<tr>
+			<td>Celcius: </td>
+			<td><input type=”text” name="celcius" id="celcius" size=”30″ maxlength=”100″ required></td>
+		</tr>
+		<br>
+		<tr>
+			<td>Fahrenheit: </td>
+			<td><output type=”text” name="fahrenheit" id="fahrenheit" size=”30″ maxlength=”100″ ></output></td>
+		</tr>
+		<br>
+		<tr>
+			<td colspan="2" align="center">
+			<button type="button" onclick="convertirCelsius(); return false">Convert to Celsius</button>
+			</td>
+		</tr>
+	</table>
+</form>
+
+
 <script type="js.js"></script>
 </body>
 </html>
